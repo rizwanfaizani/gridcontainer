@@ -1,0 +1,58 @@
+body {
+  background-color: aqua;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figure div {
+  height: 15vh;
+  width:100%;
+
+}
+.one{
+  background-color: brown;
+}
+.two{
+  background-color: chocolate;
+}
+.three {
+  background-color:yellow;
+  }
+.four {
+  background-color: steelblue;
+  }
+
+figcaption {
+  background-color: #000;
+  color: white;
+  padding: .5rem;
+  
+}
+
+figcaption * {
+  margin: 0.5rem;  
+}
+
+    .row {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      height: 200px;
+    
+    }
+    
+    figure {
+      flex-basis: 22%;
+    }
+    .span2 {
+      flex-basis: 48%;
+    }
+    .span3 {
+      flex-basis: 74%;
+    }
+    .span4 {
+      flex-basis: 100%;
+    }
+    
